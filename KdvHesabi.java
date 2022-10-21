@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 public class KdvHesabi {
     public static void main(String[] args) {
-        /* Girilen tutarın %18 KDV'sini hesaplayacağız*/
+        /* Girilen tutarın %18 KDV'sini veya %8'ini hesaplayacağız*/
 
         double tutar, kdvOrani1 = 0.18, kdvOrani2 = 0.08, kdvliTutar;   // ondalıklı olması için double veya float tanımlarız
         Scanner inp = new Scanner(System.in);  // Scanner fonksiyonu (metodu) için import etmeyi unutmayalım.
