@@ -26,11 +26,5 @@ public class ArtikYilHesaplama {
             System.out.println(yil + " bir artık yıl değildir !");
         }
 
-//        if (kalan1==0){
-//            System.out.println(yil + " artık yıldır.");
-//        } else if (kalan2==0) {
-//            System.out.println(yil + " artık yıldır.");
-//        }else System.out.println(yil + " artık yıl değildir !");
-
     }
 }
